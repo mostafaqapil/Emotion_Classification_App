@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np 
 from PIL import Image
 
-model = load_model(r'D:\P.AI\Project_ODC\model_1.keras')
+model = load_model('model_1.keras')
 
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Sad','Surprise','Neutral']
